@@ -109,6 +109,16 @@ body:active {
   padding : 20px;
 }
 
+.deplacement:active {
+  transition: all 0.3s ease;
+  transform: translate(130px, -10%);
+}
+
+.wagon {
+  height: 50px;
+  box-align: left;
+}
+
 @media (max-width: 960px) {
   .container {
     width: 700px;
